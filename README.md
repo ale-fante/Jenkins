@@ -7,15 +7,21 @@ https://docs.docker.com/compose/install/
 
 - Pull in the Jenkins configuration
 
-docker pull jenkins/jenkins
+	docker pull jenkins/jenkins
 
 - An image is a snapshot of a configuration
 
 
 - To see where docker is saving the files:
 
-docker info | grep -i root
+	docker info | grep -i root
 
 - To know how much space docker is taking:
 
-sudo du -sh  **[Directory]**
+	sudo du -sh  **[Directory]**
+
+- Docker compose file
+	subl docker-compose.yml
+
+- See docker images
+	docker images
