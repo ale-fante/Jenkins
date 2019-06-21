@@ -25,3 +25,5 @@ https://docs.docker.com/compose/install/
 
 - See docker images
 	docker images
+
+https://technology.riotgames.com/news/putting-jenkins-docker-container
